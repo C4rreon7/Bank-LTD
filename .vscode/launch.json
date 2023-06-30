@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ATMClient",
+            "request": "launch",
+            "mainClass": "banking.gui.ATMClient",
+            "projectName": "BankLtd_a38076c"
+        },
+        {
+            "type": "java",
+            "name": "ATMClient",
+            "request": "launch",
+            "mainClass": "banking.gui.ATMClient",
+            "projectName": "BankLtd_fbadb126"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestReport",
+            "request": "launch",
+            "mainClass": "banking.reports.TestReport",
+            "projectName": "BankLtd_fbadb126",
+            "args": [
+                "C:\Users\carre\Desktop\BankLtd\input\BankData.txt"
+            ]
+        }
+    ]
+}
